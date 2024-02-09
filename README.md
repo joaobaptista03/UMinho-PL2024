@@ -7,4 +7,4 @@ Aqui serão armazenados todos os trabalhos da Unidade Curricular de Processament
 
 - **Nome:** João Pedro Mota Baptista
 - **ID:** a100705
-- **Foto:** <br> ![Fotografia do aluno](myphoto.jpg)
+- **Foto:** <br> ![Fotografia do aluno](myphoto.JPG)
