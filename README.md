@@ -1,2 +1,10 @@
 # PL2024
-Projects developed in the scope of the subject Processamento de Linguagens (Language Processing) in the 2nd semester of the 3rd year of my degree.
+
+## Introdução
+Aqui serão armazenados todos os trabalhos da Unidade Curricular de Processamento de Linguagens.
+
+## Aluno
+
+- **Nome:** João Pedro Mota Baptista
+- **ID:** a100705
+- **Foto:** <br> ![Fotografia do aluno](myphoto.jpg)
