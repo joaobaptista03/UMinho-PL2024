@@ -44,10 +44,17 @@ for (column, atleta_id) in data_dict:
 
 print()
 print("Atletas por escalão:")
+file = open("resultados.txt", "w")
+file.write("Atletas por escalão:\n")
 for escalao in sorted(escaloes):
-    print(str(escalao) + " - " + str(escalao + 4) + " (" + str(len(escaloes[escalao])) + ")" + ":")
+    percentagem = round(len(escaloes[escalao]) / (aptos + inaptos) * 100,2)
+    file.write(str(escalao) + " - " + str(escalao + 4) + " (" + str(len(escaloes[escalao])) + ' - ' + str(percentagem) + "%)" + ":\n")
+    print(str(escalao) + " - " + str(escalao + 4) + " (" + str(len(escaloes[escalao])) + ' - ' + str(percentagem) + "%)" + ":")
     for atleta in escaloes[escalao]:
+        file.write("- " + atleta + "\n")
         print("- " + atleta)
+    file.write("\n")
+    print()
 
 print("Modalidades: " + ", ".join(modalidades))
 print()
@@ -56,14 +63,6 @@ print()
 print("Inaptos: " + str(inaptos) + " (" + str(percentagem_inaptos) + "%)")
 print()
 
-# guardar no ficheiro "resultados.txt"
-file = open("resultados.txt", "w")
-file.write("Atletas por escalão:\n")
-for escalao in sorted(escaloes):
-    file.write(str(escalao) + " - " + str(escalao + 4) + " (" + str(len(escaloes[escalao])) + ")" + ":\n")
-    for atleta in escaloes[escalao]:
-        file.write("- " + atleta + "\n")
-        
 file.write("\n")
 file.write("Modalidades: " + ", ".join(modalidades) + "\n")
 file.write("\n")

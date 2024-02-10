@@ -1,5 +1,5 @@
 Atletas por escalão:
-20 - 24 (80):
+20 - 24 (80 - 26.67%):
 - Cheryl Berger
 - Marla Kelley
 - Nikki Calderon
@@ -80,7 +80,8 @@ Atletas por escalão:
 - Pacheco Robbins
 - Cunningham Curry
 - Joanne Wise
-25 - 29 (102):
+
+25 - 29 (102 - 34.0%):
 - Delgado Gay
 - Graves Goff
 - Mckay Bolton
@@ -183,7 +184,8 @@ Atletas por escalão:
 - Chrystal Poole
 - Douglas Gay
 - Glenn Best
-30 - 34 (104):
+
+30 - 34 (104 - 34.67%):
 - Foreman Prince
 - Merrill Maddox
 - Faith Wells
@@ -288,7 +290,8 @@ Atletas por escalão:
 - Barr Bell
 - Lilian Levine
 - Dalton Chaney
-35 - 39 (14):
+
+35 - 39 (14 - 4.67%):
 - Lucia Bright
 - Beck Stevenson
 - Hardin Mejia
@@ -303,6 +306,7 @@ Atletas por escalão:
 - Anita Lyons
 - Dana Morrison
 - Price Hardin
+
 
 Modalidades: Andebol, Atletismo, BTT, Badminton, Basquetebol, Ciclismo, Dança, Equitação, Esgrima, Futebol, Karaté, Orientação, Parapente, Patinagem, Triatlo
 
