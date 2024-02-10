@@ -7,7 +7,7 @@
 
 ## Resumo:
 
-Neste trabalho, utilizou-se o material fornecido pelo docente, pelo que teremos de fazer o parse do mesmo em Python, criando os seguintes resultados:
+Neste trabalho, utilizou-se o material fornecido pelo docente (ficheiro CSV), pelo que teremos de fazer o parse do mesmo em Python (não podendo utilizar o módulo CSV), criando os seguintes resultados:
 
 - Lista ordenada alfabeticamente das modalidades desportivas;
 
