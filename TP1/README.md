@@ -14,3 +14,5 @@ Neste trabalho, utilizou-se o material fornecido pelo docente (ficheiro CSV), pe
 - Percentagens de atletas aptos e inaptos para a prática desportiva;
 
 - Distribuição de atletas por escalão etário (escalão = intervalo de 5 anos): ... [30-34], [35-39], ...
+
+Os resultados são impressos no ecrã, e no ficheiro "resultados.txt".
