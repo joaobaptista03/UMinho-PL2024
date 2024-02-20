@@ -2,6 +2,9 @@ import sys
 import re
 
 def main(inp):
+    if len(inp) != 2:
+        print("Usage: python3 script.py <input.md>")
+        sys.exit(1)
     mdFile = open(inp[1], "r")
     lines = mdFile.readlines()
     mdFile.close()
