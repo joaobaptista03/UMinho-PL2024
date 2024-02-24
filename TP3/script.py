@@ -15,9 +15,9 @@ def main(inp):
             line = line.strip()
             palavras = line.split(' ')
             for palavra in palavras:
-                if palavra.lower() == "on":
+                if re.search(r'on', palavra, re.IGNORECASE):
                     somadorON = True
-                elif palavra.lower() == "off":
+                elif re.search(r'off', palavra, re.IGNORECASE):
                     somadorON = False
                 elif somadorON and re.match(r'^[-+]{0,1}\d+$', palavra):
                     somador += int(palavra)
