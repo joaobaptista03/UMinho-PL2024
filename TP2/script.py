@@ -2,7 +2,7 @@ import sys
 import re
 
 def main(inp):
-    if len(inp) != 2:
+    if len(inp) != 2 and len(inp) != 1:
         print("Usage: python3 script.py <input.md>")
         sys.exit(1)
     mdFile = open(inp[1], "r")
@@ -34,14 +34,24 @@ def main(inp):
     orderedList = False
     unorderedList = False
     content = ''
-    for line in lines:
-        newLine, closeOrd, closeUnord, orderedList, unorderedList = MDtoHTML(line, orderedList, unorderedList)
-        
-        if (newLine == line and line != "\n"):
-            newLine = f"<p>{line.strip()}</p>\n"
-        
-        content += "    " + closeOrd + closeUnord + newLine
+    if len(inp) == 2:
+        for line in lines:
+            newLine, closeOrd, closeUnord, orderedList, unorderedList = MDtoHTML(line, orderedList, unorderedList)
+            
+            if (newLine == line and line != "\n"):
+                newLine = f"<p>{line.strip()}</p>\n"
+            
+            content += "    " + closeOrd + closeUnord + newLine
     
+    elif len(inp) == 1:
+        for line in sys.stdin:
+            newLine, closeOrd, closeUnord, orderedList, unorderedList = MDtoHTML(line, orderedList, unorderedList)
+            
+            if (newLine == line and line != "\n"):
+                newLine = f"<p>{line.strip()}</p>\n"
+            
+            content += "    " + closeOrd + closeUnord + newLine
+        
     if orderedList:
         content += '''
     </ol>
