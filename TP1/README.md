@@ -1,11 +1,13 @@
 # TPC1: Análise de um Dataset
+
 ## 2024-02-09
 
-## Autor:
+## Autor
+
 - A100705
 - João Pedro Mota Baptista
 
-## Resumo:
+## Resumo
 
 Neste trabalho, utilizou-se o material fornecido pelo docente (ficheiro CSV), pelo que teremos de fazer o parse do mesmo em Python (não podendo utilizar o módulo CSV), criando os seguintes resultados:
 

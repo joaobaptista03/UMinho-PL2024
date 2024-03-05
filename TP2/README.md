@@ -1,11 +1,13 @@
 # TPC2: Conversor de MD para HTML
+
 ## 2024-02-17
 
-## Autor:
+## Autor
+
 - A100705
 - João Pedro Mota Baptista
 
-## Resumo:
+## Resumo
 
 Neste trabalho, foi desenvolvido um conversor de MarkDown para HTML, em Python.
 

@@ -1,11 +1,13 @@
 # TPC4: Análise Léxica
+
 ## 2024-03-01
 
-## Autor:
+## Autor
+
 - A100705
 - João Pedro Mota Baptista
 
-## Resumo:
+## Resumo
 
 Pretende-se um programa em Python que analise lexicamente a seguinte sequência (código SQL).
 

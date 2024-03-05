@@ -1,11 +1,13 @@
 # TPC3: Somador ON/OFF
+
 ## 2024-02-23
 
-## Autor:
+## Autor
+
 - A100705
 - João Pedro Mota Baptista
 
-## Resumo:
+## Resumo
 
 Pretende-se um programa em Python que some todas as sequências de dígitos que encontre num texto.
 
